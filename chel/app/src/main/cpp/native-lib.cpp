@@ -3,7 +3,7 @@
 #include <android/log.h>
 #include <memory>
 
-#define LOG_INFO(...) __android_log_print(ANDROID_LOG_INFO, "fclient_ndk", __VA_ARGS__)
+#define LOG_INFO(...) __android_log_print(ANDROID_LOG_INFO, "chel_ndk", __VA_ARGS__)
 
 #include <spdlog/spdlog.h>
 #include "spdlog/sinks/android_sink.h"
